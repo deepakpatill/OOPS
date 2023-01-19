@@ -50,6 +50,17 @@ namespace OOPS
             StringBuilderTest sbt = new StringBuilderTest();
             sbt.StringBuilderDemo();
 
+
+            Console.WriteLine();
+            Console.WriteLine("String Conversion Demo");
+            IfelseCSharp ie = new IfelseCSharp();
+            ie.IfelseDemo();
+
+            Console.WriteLine();
+            Console.WriteLine("String Conversion Demo");
+            SwitchCase sw = new SwitchCase();
+            sw.SwitchCaseDemo();
+
             Console.WriteLine();
             Console.WriteLine("String Conversion Demo");
             StringConversion sc = new StringConversion();
