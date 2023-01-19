@@ -12,5 +12,10 @@ namespace OOPS
         {
             Console.WriteLine("Name: {0} \n Id: {1}", name, id);
         }
+        partial void Print()
+        {
+            Console.WriteLine("Using Partial Method");
+            Console.WriteLine("Name: {0} \n Id: {1}", name, id);
+        }
     }
 }

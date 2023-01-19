@@ -15,6 +15,12 @@ namespace OOPS
             this.name = name;
             this.id = id;
         }
+        partial void Print();
+
+        public void PartialMethod()
+        {
+            Print();
+        }
 
     }
     class PartialClass
@@ -23,6 +29,12 @@ namespace OOPS
         {
             EmployeeDetails e = new EmployeeDetails("ABC",101);
             e.Display();
+        }
+
+        public void PartialMethodDemo()
+        {
+            EmployeeDetails e = new EmployeeDetails("ABC", 101);
+            e.PartialMethod();
         }
     }
 }

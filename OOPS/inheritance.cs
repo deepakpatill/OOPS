@@ -2,7 +2,7 @@
 
 namespace OOPS
 {
-    public class Employee
+    public partial class Employee
     {
         public string FirstName;
         public string LastName;

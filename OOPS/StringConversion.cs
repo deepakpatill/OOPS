@@ -11,10 +11,20 @@ namespace OOPS
         public void StringConversionDemo()
         {
             string num = null;
-            string text = num.ToString();
+            
             string text1 = Convert.ToString(num);
-            Console.WriteLine("Using .ToString(): {0}", text);
             Console.WriteLine("Using Convert.ToString(): {0}", text1);
+            try
+            {
+                string text = num.ToString();
+                Console.WriteLine("Using .ToString(): {0}", text.ToString());
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            };
+            
+
         }
     }
 }
