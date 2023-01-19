@@ -52,14 +52,17 @@ namespace OOPS
 
 
             Console.WriteLine();
-            Console.WriteLine("String Conversion Demo");
+            Console.WriteLine("If else Demo");
             IfelseCSharp ie = new IfelseCSharp();
             ie.IfelseDemo();
 
             Console.WriteLine();
-            Console.WriteLine("String Conversion Demo");
+            Console.WriteLine("Switch Case Demo");
             SwitchCase sw = new SwitchCase();
             sw.SwitchCaseDemo();
+
+            Console.WriteLine();
+            Console.WriteLine("String Conversion Demo");
 
             Console.WriteLine();
             Console.WriteLine("String Conversion Demo");
