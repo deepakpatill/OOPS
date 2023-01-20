@@ -49,7 +49,7 @@
     <Compile Include="Async.cs" />
     <Compile Include="ClassProperty.cs" />
     <Compile Include="Constructor.cs" />
-    <Compile Include="ConstructorInjection.cs" />
+    <Compile Include="DependencyInjection.cs" />
     <Compile Include="CustomException.cs" />
     <Compile Include="DataTypes.cs" />
     <Compile Include="DoWhile.cs" />
@@ -63,6 +63,7 @@
     <Compile Include="Inheritance.cs" />
     <Compile Include="InnerException.cs" />
     <Compile Include="MethodHiding.cs" />
+    <Compile Include="MethodOverloading.cs" />
     <Compile Include="Namespaces.cs" />
     <Compile Include="NullableType.cs" />
     <Compile Include="Operators.cs" />

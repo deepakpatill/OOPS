@@ -147,13 +147,15 @@ namespace OOPS
             Enum e = new Enum();
             e.EnumDemo();
 
-            
-
 
             Console.WriteLine();
-            Console.WriteLine("Exception Types Demo");
-            ExceptionTypes et = new ExceptionTypes();
-            et.ExceptionTypesDemo();
+            Console.WriteLine("Dependency Injection Demo");
+            DependencyInjection cs = new DependencyInjection();
+            cs.ConstructorInjectionDemo();
+            cs.PropertyInjectionDemo();
+            cs.MethodInjectionDemo();
+
+        
 
             Console.WriteLine();
             Console.WriteLine("Method Overloading Demo");
@@ -164,6 +166,11 @@ namespace OOPS
             Console.WriteLine("Exception Handling Abuse Demo");
             ExceptionHandlingAbuse eha = new ExceptionHandlingAbuse();
             eha.ExceptionHandlingAbuseDemo();
+
+            Console.WriteLine();
+            Console.WriteLine("Exception Types Demo");
+            ExceptionTypes et = new ExceptionTypes();
+            et.ExceptionTypesDemo();
 
 
 
