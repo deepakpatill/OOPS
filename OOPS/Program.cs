@@ -147,6 +147,21 @@ namespace OOPS
             Enum e = new Enum();
             e.EnumDemo();
 
+            
+
+
+            Console.WriteLine();
+            Console.WriteLine("Exception Types Demo");
+            ExceptionTypes et = new ExceptionTypes();
+            et.ExceptionTypesDemo();
+
+            Console.WriteLine();
+            Console.WriteLine("Exception Handling Abuse Demo");
+            ExceptionHandlingAbuse eha = new ExceptionHandlingAbuse();
+            eha.ExceptionHandlingAbuseDemo();
+
+
+
             Console.ReadKey();
 
 

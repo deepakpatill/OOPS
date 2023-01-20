@@ -49,12 +49,15 @@
     <Compile Include="Async.cs" />
     <Compile Include="ClassProperty.cs" />
     <Compile Include="Constructor.cs" />
+    <Compile Include="ConstructorInjection.cs" />
     <Compile Include="CustomException.cs" />
     <Compile Include="DataTypes.cs" />
     <Compile Include="DoWhile.cs" />
     <Compile Include="EmployeeDetails.cs" />
     <Compile Include="Enum.cs" />
     <Compile Include="ExceptionHandling.cs" />
+    <Compile Include="ExceptionHandlingAbuse.cs" />
+    <Compile Include="ExceptionTypes.cs" />
     <Compile Include="ForLoop.cs" />
     <Compile Include="IfelseCSharp.cs" />
     <Compile Include="Inheritance.cs" />
