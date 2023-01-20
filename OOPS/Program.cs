@@ -156,6 +156,11 @@ namespace OOPS
             et.ExceptionTypesDemo();
 
             Console.WriteLine();
+            Console.WriteLine("Method Overloading Demo");
+            MethodOverloading mo = new MethodOverloading();
+            mo.MethodOverloadingDemo();
+
+            Console.WriteLine();
             Console.WriteLine("Exception Handling Abuse Demo");
             ExceptionHandlingAbuse eha = new ExceptionHandlingAbuse();
             eha.ExceptionHandlingAbuseDemo();
